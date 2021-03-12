@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/morgengold/static/css/main.e4498b50.chunk.css",
+    "main.js": "/morgengold/static/js/main.19d833c4.chunk.js",
+    "main.js.map": "/morgengold/static/js/main.19d833c4.chunk.js.map",
+    "runtime-main.js": "/morgengold/static/js/runtime-main.576090ce.js",
+    "runtime-main.js.map": "/morgengold/static/js/runtime-main.576090ce.js.map",
+    "static/js/2.b6b968e8.chunk.js": "/morgengold/static/js/2.b6b968e8.chunk.js",
+    "static/js/2.b6b968e8.chunk.js.map": "/morgengold/static/js/2.b6b968e8.chunk.js.map",
+    "static/js/3.17aea892.chunk.js": "/morgengold/static/js/3.17aea892.chunk.js",
+    "static/js/3.17aea892.chunk.js.map": "/morgengold/static/js/3.17aea892.chunk.js.map",
+    "index.html": "/morgengold/index.html",
+    "static/css/main.e4498b50.chunk.css.map": "/morgengold/static/css/main.e4498b50.chunk.css.map",
+    "static/js/2.b6b968e8.chunk.js.LICENSE.txt": "/morgengold/static/js/2.b6b968e8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.576090ce.js",
+    "static/js/2.b6b968e8.chunk.js",
+    "static/css/main.e4498b50.chunk.css",
+    "static/js/main.19d833c4.chunk.js"
+  ]
+}
