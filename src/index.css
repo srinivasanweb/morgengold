@@ -6,8 +6,108 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+footer .section {
+  margin-bottom: 0px !important;
+}
+@media (min-width: 992px)
+{
+.hero:not([class*="hero-variant"]) .hero-content-wrapper {
+    bottom: 105px;
+}
+.hero:not([class*="hero-variant"]) .hero-sticker {
+  bottom: 150px;
+}
+.section-with-image {
+  margin-bottom: 0 !important;
+}
+.section-with-image > .section-bg-image-rb {
+  max-width: 570px !important;
+}
+}
+@font-face {
+  font-family: 'Brandon Text';
+  src: url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_B_0.eot");
+  src: url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_B_0.eot?#iefix") format("embedded-opentype"), url(https://www.morgengold.de/customer/resources/fonts/brandon_transfonter/BrandonTextWeb-Thin.woff2") format("woff2"), url(https://www.morgengold.de/customer/resources/fonts/brandon_transfonter/BrandonTextWeb-Thin.woff") format("woff"), url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_B_0.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal; }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Brandon Text';
+  src: url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_A_0.eot");
+  src: url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_A_0.eot?#iefix") format("embedded-opentype"), url(https://www.morgengold.de/customer/resources/fonts/brandon_transfonter/BrandonTextWeb-ThinItalic.woff2") format("woff2"), url(https://www.morgengold.de/customer/resources/fonts/brandon_transfonter/BrandonTextWeb-ThinItalic.woff") format("woff"), url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_A_0.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Brandon Text';
+  src: url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_5_0.eot");
+  src: url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_5_0.eot?#iefix") format("embedded-opentype"), url(https://www.morgengold.de/customer/resources/fonts/brandon_transfonter/BrandonTextWeb-Light.woff2") format("woff2"), url(https://www.morgengold.de/customer/resources/fonts/brandon_transfonter/BrandonTextWeb-Light.woff") format("woff"), url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_5_0.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brandon Text';
+  src: url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_4_0.eot");
+  src: url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_4_0.eot?#iefix") format("embedded-opentype"), url(https://www.morgengold.de/customer/resources/fonts/brandon_transfonter/BrandonTextWeb-LightItalic.woff2") format("woff2"), url(https://www.morgengold.de/customer/resources/fonts/brandon_transfonter/BrandonTextWeb-LightItalic.woff") format("woff"), url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_4_0.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Brandon Text';
+  src: url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_8_0.eot");
+  src: url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_8_0.eot?#iefix") format("embedded-opentype"), url(https://www.morgengold.de/customer/resources/fonts/brandon_transfonter/BrandonTextWeb-Regular.woff2") format("woff2"), url(https://www.morgengold.de/customer/resources/fonts/brandon_transfonter/BrandonTextWeb-Regular.woff") format("woff"), url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_8_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brandon Text';
+  src: url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_6_0.eot");
+  src: url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_6_0.eot?#iefix") format("embedded-opentype"), url(https://www.morgengold.de/customer/resources/fonts/brandon_transfonter/BrandonTextWeb-Italic.woff2") format("woff2"), url(https://www.morgengold.de/customer/resources/fonts/brandon_transfonter/BrandonTextWeb-Italic.woff") format("woff"), url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_6_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Brandon Text';
+  src: url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_9_0.eot");
+  src: url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_9_0.eot?#iefix") format("embedded-opentype"), url(https://www.morgengold.de/customer/resources/fonts/brandon_transfonter/BrandonTextWeb-Medium.woff2") format("woff2"), url(https://www.morgengold.de/customer/resources/fonts/brandon_transfonter/BrandonTextWeb-Medium.woff") format("woff"), url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_9_0.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brandon Text';
+  src: url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_7_0.eot");
+  src: url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_7_0.eot?#iefix") format("embedded-opentype"), url(https://www.morgengold.de/customer/resources/fonts/brandon_transfonter/BrandonTextWeb-MediumItalic.woff2") format("woff2"), url(https://www.morgengold.de/customer/resources/fonts/brandon_transfonter/BrandonTextWeb-MediumItalic.woff") format("woff"), url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_7_0.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Brandon Text';
+  src: url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_2_0.eot");
+  src: url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_2_0.eot?#iefix") format("embedded-opentype"), url(https://www.morgengold.de/customer/resources/fonts/brandon_transfonter/BrandonTextWeb-Bold.woff2") format("woff2"), url(https://www.morgengold.de/customer/resources/fonts/brandon_transfonter/BrandonTextWeb-Bold.woff") format("woff"), url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_2_0.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brandon Text';
+  src: url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_1_0.eot");
+  src: url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_1_0.eot?#iefix") format("embedded-opentype"), url(https://www.morgengold.de/customer/resources/fonts/brandon_transfonter/BrandonTextWeb-BoldItalic.woff2") format("woff2"), url(https://www.morgengold.de/customer/resources/fonts/brandon_transfonter/BrandonTextWeb-BoldItalic.woff") format("woff"), url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_1_0.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Brandon Text';
+  src: url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_0_0.eot");
+  src: url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_0_0.eot?#iefix") format("embedded-opentype"), url(https://www.morgengold.de/customer/resources/fonts/brandon_transfonter/BrandonTextWeb-Black.woff2") format("woff2"), url(https://www.morgengold.de/customer/resources/fonts/brandon_transfonter/BrandonTextWeb-Black.woff") format("woff"), url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_0_0.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brandon Text';
+  src: url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_3_0.eot");
+  src: url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_3_0.eot?#iefix") format("embedded-opentype"), url(https://www.morgengold.de/customer/resources/fonts/brandon_transfonter/BrandonTextWeb-BlackItalic.woff2") format("woff2"), url(https://www.morgengold.de/customer/resources/fonts/brandon_transfonter/BrandonTextWeb-BlackItalic.woff") format("woff"), url(https://www.morgengold.de/customer/resources/fonts/brandon/35F84F_3_0.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic; }
+ 
+  .footer-social-media-links img {
+    margin-left: 13px;
 }
